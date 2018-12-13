@@ -1,5 +1,5 @@
 body {
-  background-color: blue;
+  
 }
 h4 {
   color: green;
@@ -13,6 +13,7 @@ pre {
     LINE-HEIGHT: 20px;
 }
 nav ul, footer ul {
+  background-color: blue;
   font-family: 'Times New Roman';
   padding: 2px;
   font-weight: bold;
