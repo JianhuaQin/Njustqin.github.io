@@ -10,5 +10,6 @@ p {
 pre {
     font-size: 14px;
     color: green;
-    LINE-HEIGHT:10px;
+    LINE-HEIGHT:20px;
+    margin: 10px;
 }
