@@ -16,5 +16,8 @@ nav ul, footer ul {
   font-family: 'Times New Roman';
   padding: 2px;
   font-weight: bold;
+}
+nav ul li, footer ul li {
   display: inline;
+  margin-right: 20px;
 }
