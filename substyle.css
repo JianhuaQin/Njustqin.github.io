@@ -21,10 +21,8 @@ nav ul li, footer ul li {
   display: inline;
   margin-right: 20px;
 }
-ul.posts { 
-    margin: 20px auto 30px; 
-    font-size: 1em;
-}
-ul.posts li {
-  list-style: none;
+a{
+  text-decoration: none;
+  color: #FF4500;
+  font-size: 2em;
 }
