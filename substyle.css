@@ -1,0 +1,13 @@
+body {
+  background-color: powderblue;
+}
+h4 {
+  color: green;
+}
+p {
+  color: red;
+}
+pre {
+    font-size: .7rem;
+    margin: 0;
+}
