@@ -26,3 +26,6 @@ a{
   color: #FF4500;
   font-size: 2em;
 }
+a:hover {
+  text-decoration: underline;
+}
