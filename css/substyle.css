@@ -9,7 +9,7 @@ p {
 }
 pre {
 	font-family: 'Times New Roman';
-    font-size: 14px;
+    font-size: 18px;
     color: green;
     LINE-HEIGHT: 20px;
 	counter-reset: line;
