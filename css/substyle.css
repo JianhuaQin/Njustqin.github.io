@@ -11,6 +11,7 @@ pre {
     font-size: 14px;
     color: green;
     LINE-HEIGHT: 20px;
+	counter-reset: line;
 }
 pre span {
   display: block;
