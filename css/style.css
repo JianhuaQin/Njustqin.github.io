@@ -6,7 +6,7 @@ nav ul, footer ul {
   background-color: #1589FF;
   font-family: 'Times New Roman';
   padding: 2px;
-  font-weight: 600;
+  font-weight: 400;
   !position: fixed; /* Set the navbar to fixed position */
   !top: 50px; /* Position the navbar at the top of the page */
   !width: 100%; /* Full width */
