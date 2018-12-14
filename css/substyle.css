@@ -8,6 +8,7 @@ p {
   color: red;
 }
 pre {
+	font-family: 'Times New Roman';
     font-size: 14px;
     color: green;
     LINE-HEIGHT: 20px;
