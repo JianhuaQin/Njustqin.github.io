@@ -1,1 +1,33 @@
+body {
+  
+}
+h4 {
+  color: green;
+}
+p {
+  color: red;
+}
+pre {
+    font-size: 14px;
+    color: green;
+    LINE-HEIGHT: 20px;
+}
+nav ul, footer ul {
+  background-color: #1589FF;
+  font-family: 'Times New Roman';
+  padding: 2px;
+  font-weight: bold;
+}
+nav ul li, footer ul li {
+  display: inline;
+  margin-right: 20px;
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+a:hover {
+  text-decoration: underline;
+}
 
