@@ -1,6 +1,3 @@
-body {
-  
-}
 h1 {
   margin-left: 100px;
 }
@@ -9,9 +6,9 @@ nav ul, footer ul {
   font-family: 'Times New Roman';
   padding: 2px;
   font-weight: bold;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 50px; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
+  !position: fixed; /* Set the navbar to fixed position */
+  !top: 50px; /* Position the navbar at the top of the page */
+  !width: 100%; /* Full width */
 }
 nav ul li, footer ul li {
   display: inline;
