@@ -15,7 +15,7 @@ pre {
 }
 pre span {
   display: block;
-  line-height: 1.5rem;
+  line-height: 0.5rem;
 }
 pre span:before {
   counter-increment: line;
