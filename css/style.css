@@ -13,6 +13,15 @@ pre {
     LINE-HEIGHT: 20px;
 	counter-reset: line;
 }
+pre span:before {
+  counter-increment: line;
+  content: counter(line);
+  display: inline-block;
+  border-right: 1px solid #ddd;
+  padding: 0 .5em;
+  margin-right: .5em;
+  color: #888
+}
 nav ul, footer ul {
   background-color: #1589FF;
   font-family: 'Times New Roman';
