@@ -32,5 +32,10 @@ footer {
   background-color: #2d2d86;
   color: white;
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
 }
+footer li {
+  display: inline;
+  margin-right: 20px;
+}
+
