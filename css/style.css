@@ -2,7 +2,7 @@ h1 {
   margin-left: 100px;
   font-weight:400;
 }
-nav ul, footer ul {
+nav ul {
   background-color: #1589FF;
   font-family: 'Times New Roman';
   padding: 2px;
@@ -11,7 +11,7 @@ nav ul, footer ul {
   !top: 50px; /* Position the navbar at the top of the page */
   !width: 100%; /* Full width */
 }
-nav ul li, {
+nav ul li {
   display: inline;
   margin-right: 20px;
 }
