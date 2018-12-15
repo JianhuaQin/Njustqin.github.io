@@ -2,6 +2,24 @@
 <head>
   <link rel="stylesheet" href="css/substyle.css">
   <link rel="stylesheet" href="css/style.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
 </head>
 <h1>Experimental Fluid Mechanics and Aerodynamics Laboratory</h1>
 <body>
@@ -17,39 +35,45 @@
 </ul>
 </nav>
 <h2>Research Staff</h2>
-<p2>Faculty</p2>
-<p>Prof. Yiannis Andreopoulos (Director)</p>
+<p2>Faculty</p2><br>
+<p3>Prof. Yiannis Andreopoulos (Director)</p3><br>
 <p1>Michael Pope Professor of Energy Research</p1><br/>
 <p1>Email: andre@ccny.cuny.edu</p1><br/>
 <p1>Phone: (212)650-5206</p1><br/>
 <p1>Fax: (212) 650-8013</p1><br/>
 <a href="https://www.ccny.cuny.edu/profiles/yiannis-andreopoulos"><p1>Faculty profile</p1></a>
-<p>Prof. Zhexuan Wang</p>
-<p>Prof. Oleg Goushcha</p>
-<p>Prof. Xiaohai Jiang</p>
-<br></br>
+<br><br>
+<p3>Prof. Zhexuan Wang</p3>
+<p3>Prof. Oleg Goushcha</p3>
+<p3>Prof. Xiaohai Jiang</p3>
+<br><br><br>
 
-<p2>PhD students: </p2>
-<p>Joan Gomez</p>
-<p>Salih Yildiz</p>
+<p2>PhD students: </p2><br/>
+<p3>Joan Gomez</p3>
+<p3>Salih Yildiz</p3>
+<br><br><br>
+<p2>Visiting PhD students: </p2><br>
+<P3>Jianhua Qin</P3><br><br><br>
 
-</br>
-<p2>Visiting PhD students: </p2>
-<P>Jianhua Qin</P></br>
-
-<p2>Alumni: </p2>
-<P>Dr. Amir Elzawawy</P>
-<P>Dr. Dogus H. Akaydin</P>
-<P>Dr. Ahmed Algananwah</P>
-<P>Dr. Moise Koffi</P>
-<P>Dr. Juan Agui</P>
-<P>Dr. Anant Honkan</P>
-<P>Dr. George Briassulis</P>
-<P>Dr. Savvas Xanthos</P>
-<P>Dr. Minwei Gong</P>
-<P>Dr. Alexis Pierides</P>
-<P>Dr. Qian hong Wu</P>
-<P>Dr. Parisa Mirbod</P>
+<p2>Alumni: </p2><br/>
+<div class="row">
+  <div class="column" style="background-color:#f2f2f2;">
+<P4>Dr. Amir Elzawawy</P4><br>
+<P4>Dr. Dogus H. Akaydin</P4><br>
+<P4>Dr. Juan Agui</P4><br>
+<P4>Dr. Anant Honkan</P4><br>
+<P4>Dr. Minwei Gong</P4><br>
+<P4>Dr. Alexis Pierides</P4><br>
+  </div>
+  <div class="column" style="background-color:#d9d9d9;">
+<P4>Dr. Ahmed Algananwah</P4><br>
+<P4>Dr. Moise Koffi</P4><br>
+<P4>Dr. George Briassulis</P4><br>
+<P4>Dr. Savvas Xanthos</P4><br>
+<P4>Dr. Qian hong Wu</P4><br>
+<P4>Dr. Parisa Mirbod</P4><br>
+  </div>
+</div>
 </br>
 <footer>
 <li><a href="https://www.ccny.cuny.edu/">The City College of New York</a></li>
