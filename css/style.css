@@ -11,9 +11,9 @@ nav ul, footer ul {
   !top: 50px; /* Position the navbar at the top of the page */
   !width: 100%; /* Full width */
 }
-nav ul li, footer ul li {
+nav ul li, {
   display: inline;
-  margin-right: 22px;
+  margin-right: 20px;
 }
 a{
   margin-left: 100px;
@@ -32,5 +32,5 @@ footer {
   background-color: #2d2d86;
   color: white;
   text-align: center;
-  font-size: 20px;
+  font-size: 40px;
 }
