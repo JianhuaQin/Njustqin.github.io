@@ -1,13 +1,13 @@
 body {
   !background-color: lightgreen;
 }
+h1 {
+  margin-left: 100px;
+  font-weight:400;
+}
 h2 {
   margin-left: 100px;
   color: #666699;
-}
-h3 {
-  margin-left: 100px;
-  text-decoration: underline;
 }
 h4 {
   color: green;
@@ -20,6 +20,11 @@ p1 {
   margin-left: 100px;
   font-size: 20px;
   color: #666699;
+}
+p2 {
+  margin-left: 100px;
+  text-decoration: underline;
+  font-size: 24px;
 }
 pre {
 	margin-left: 100px;
@@ -41,22 +46,4 @@ pre span:before {
   padding: 0 .5em;
   margin-right: .5em;
   color: #888
-}
-nav ul, footer ul {
-  background-color: #1589FF;
-  font-family: 'Times New Roman';
-  padding: 2px;
-  font-weight: bold;
-}
-nav ul li, footer ul li {
-  display: inline;
-  margin-right: 20px;
-}
-a{
-  text-decoration: none;
-  color: white;
-  font-size: 15px;
-}
-a:hover {
-  text-decoration: underline;
 }
