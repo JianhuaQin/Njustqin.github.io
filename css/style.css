@@ -19,6 +19,15 @@ a{
 a:hover {
   text-decoration: underline;
 }
+a1{
+  text-decoration: none;
+  margin-left: 100px;
+  font-size: 20px;
+  color: #666699;
+}
+a1:hover {
+  text-decoration: underline;
+}
 footer {
   position: fixed;
   left: 0;
