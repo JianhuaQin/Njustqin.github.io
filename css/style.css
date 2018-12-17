@@ -1,5 +1,6 @@
 html {
 	width: 2500px;
+	margin: 0 auto;
 }
 nav ul {
   background-color: #1589FF;
@@ -13,7 +14,7 @@ nav ul {
 nav ul li {
   display: inline;
   margin-left: 100px;
-  margin-right: 100px;
+  !margin-right: 100px;
 }
 a{
   text-decoration: none;
