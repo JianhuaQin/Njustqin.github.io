@@ -1,3 +1,6 @@
+html {
+	min-width: 1200px;
+}
 nav ul {
   background-color: #1589FF;
   font-family: 'Times New Roman';
