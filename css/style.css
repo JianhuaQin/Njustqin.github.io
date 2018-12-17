@@ -1,5 +1,5 @@
 html {
-	min-width: 1200px;
+	width: 2000px;
 }
 nav ul {
   background-color: #1589FF;
@@ -13,6 +13,7 @@ nav ul {
 nav ul li {
   display: inline;
   margin-left: 100px;
+  margin-right: 100px;
 }
 a{
   text-decoration: none;
