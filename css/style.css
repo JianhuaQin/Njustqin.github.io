@@ -5,7 +5,7 @@ nav ul {
   font-weight: 400;
   !position: fixed; /* Set the navbar to fixed position */
   !top: 50px; /* Position the navbar at the top of the page */
-  !width: 100%; /* Full width */
+  width: 100%; /* Full width */
 }
 nav ul li {
   display: inline;
