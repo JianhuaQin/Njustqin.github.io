@@ -45,14 +45,14 @@ pre {
 }
 pre span {
   display: block;
-  line-height: 0.5rem;
+  line-height: 2rem;
 }
 pre span:before {
   counter-increment: line;
   content: counter(line);
-  display: inline-block;
-  border-right: 1px solid #ddd;
-  padding: 0.5em;
+  !display: inline-block;
+  !border-right: 1px solid #ddd;
+  !padding: 0.5em;
   margin-right: .5em;
   color: #888
 }

@@ -1,6 +1,5 @@
 html {
-	width: 2500px;
-	margin: 0 auto;
+	width: 100%;
 }
 nav ul {
   background-color: #1589FF;
@@ -44,7 +43,7 @@ footer {
   font-size: 24px;
 }
 footer li {
-  display: inline;
+  display: inline-block;
   padding-right: 5px;
 }
 
