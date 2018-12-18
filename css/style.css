@@ -1,6 +1,12 @@
 html {
 	width: 100%;
 }
+.container{
+  width: 100dx;
+  text-align: center;
+  !margin: auto;
+  !overflow: hidden;
+}
 nav ul {
   background-color: #1589FF;
   font-family: 'Times New Roman';
