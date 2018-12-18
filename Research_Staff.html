@@ -10,7 +10,7 @@
 .column {
   float: left;
   width: 50%;
-  height: 300px; /* Should be removed. Only for demonstration */
+  !height: 500px; /* Should be removed. Only for demonstration */
 }
 
 /* Clear floats after the columns */
@@ -30,7 +30,6 @@
     <li> <a href="Major_Facilities.html">Facilities</a> </li>
     <li> <a href="Research_Equipment.html">Equipment</a> </li>
     <li> <a href="Research_Staff.html">People</a> </li>
-    <li> <a href="Publications.html">Publications</a> </li>
 	<li> <a href="https://scholar.google.com/citations?user=WBk9QLgAAAAJ&hl=en&oi=ao">Citations</a> </li>
 </ul>
 </nav>
@@ -39,12 +38,12 @@
 <p3>Prof. Yiannis Andreopoulos (Director)</p3><br>
 <p1>Michael Pope Professor of Energy Research</p1><br/>
 <p1>Email: andre@ccny.cuny.edu</p1><br/>
-<p1>Phone: (212)650-5206</p1><br/>
+<p1>Phone: (212) 650-5206</p1><br/>
 <p1>Fax: (212) 650-8013</p1><br/>
 <a href="https://www.ccny.cuny.edu/profiles/yiannis-andreopoulos"><p1>Faculty profile</p1></a>
 <br><br>
 <p3>Prof. Zhexuan Wang</p3>
-<p3>Prof. Oleg Goushcha</p3>
+<p3>Prof. Oleg Goushcha</p3><br><br>
 <p3>Prof. Xiaohai Jiang</p3>
 <br><br><br>
 
@@ -57,7 +56,7 @@
 
 <p2>Alumni: </p2><br/>
 <div class="row">
-  <div class="column" style="background-color:#f2f2f2;">
+  <div class="column" style="background-color:/* #f2f2f2 */; width: 400px">  
 <P4>Dr. Amir Elzawawy</P4><br>
 <P4>Dr. Dogus H. Akaydin</P4><br>
 <P4>Dr. Juan Agui</P4><br>
@@ -65,7 +64,7 @@
 <P4>Dr. Minwei Gong</P4><br>
 <P4>Dr. Alexis Pierides</P4><br>
   </div>
-  <div class="column" style="background-color:#d9d9d9;">
+  <div class="column" style="background-color:/* #f2f2f2 */;width: 400px">
 <P4>Dr. Ahmed Algananwah</P4><br>
 <P4>Dr. Moise Koffi</P4><br>
 <P4>Dr. George Briassulis</P4><br>
@@ -76,11 +75,15 @@
 </div>
 </br>
 <footer>
+<div class="column" style="text-align: right; width:35%">
 <li><a href="https://www.ccny.cuny.edu/">The City College of New York</a></li>
-<li>|</li>
+</div>
+<div class="column" style="text-align: center;width: 30%">
 <li><a href="https://www.ccny.cuny.edu/engineering">Grove School of Engineering</a></li>
-<li>|</li>
-<li><a href="https://www.ccny.cuny.edu/mecheng/">Department of Mechanical Engineering</a></li> 
+</div>
+<div class="column" style="text-align: left; width: 35%">
+<li><a href="https://www.ccny.cuny.edu/mecheng/">Department of Mechanical Engineering</a></li>
+</div> 
 </footer> 
 </body>
 </html>

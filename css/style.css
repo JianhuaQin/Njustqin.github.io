@@ -1,3 +1,6 @@
+html {
+	width: 100%;
+}
 nav ul {
   background-color: #1589FF;
   font-family: 'Times New Roman';
@@ -5,11 +8,12 @@ nav ul {
   font-weight: 400;
   !position: fixed; /* Set the navbar to fixed position */
   !top: 50px; /* Position the navbar at the top of the page */
-  !width: 100%; /* Full width */
+  width: 100%; /* Full width */
 }
 nav ul li {
   display: inline;
   margin-left: 100px;
+  !margin-right: 100px;
 }
 a{
   text-decoration: none;
@@ -33,13 +37,15 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
+  height: 3%;
   background-color: #2d2d86;
   color: white;
-  text-align: center;
+  !text-align: center;
   font-size: 24px;
+  !padding-left: 110px;
 }
 footer li {
   display: inline;
-  padding-right: 5px;
+  font-family: 'Times New Roman';
 }
 
