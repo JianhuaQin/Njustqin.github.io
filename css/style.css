@@ -1,5 +1,5 @@
 body{
-  background-color: rgba(220,214,185,.15);
+  background-color: rgba(220,214,185,.1);
 }
 
 html {
@@ -13,7 +13,6 @@ html {
 }
 #text-gif{
   background-image: url("../images/bounce.gif");
-  background-color#ccc;
   min-height: 15%;
   margin-left: 100;
   background-position: left;
