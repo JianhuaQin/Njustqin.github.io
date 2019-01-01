@@ -13,20 +13,20 @@ h4 {
   color: green;
 }
 p1 {
-  margin-left: 100px;
+  !margin-left: 100px;
   font-size: 20px;
   color: #666699;
   font-family: 'Times New Roman';
 }
 p2 {
-  margin-left: 100px;
+  !margin-left: 100px;
   text-decoration: underline;
   font-size: 24px;
   color: #9494b8;
   font-family: 'Times New Roman';
 }
 p3 {
-  margin-left: 100px;
+  !margin-left: 100px;
   font-size: 22px;
   line-height: 1.5rem;
   color: #660066;
@@ -34,29 +34,34 @@ p3 {
   font-family: 'Times New Roman';
 }
 p4 {
-  padding-left: 100px;
+  !padding-left: 100px;
   font-size: 22px;
   line-height: 1.5rem;
   color: #660066;
   font-family: 'Times New Roman';
 }
 p5 {
-  font-size: 22px;
+  !font-size: 22px;
   line-height: 1.5rem;
   color: #660066;
   font-weight: normal;
   font-family: 'Times New Roman';
 }
 pre {
-	margin-left: 100px;
+	!margin-left: 100px;
 	font-family: 'Times New Roman';
-    font-size: 20px;
-    color: green;
+  font-size: 20px;
+  color: green;
 	counter-reset: line;
+  line-height: 0em;
+  margin: 0;
+  padding: 0;
 }
 pre span {
   display: block;
-  line-height: 0.5rem;
+  line-height: 1.5em;
+  margin: 0;
+  !border: 1px red solid;
 }
 pre span:before {
   counter-increment: line;
@@ -64,6 +69,6 @@ pre span:before {
   !display: inline-block;
   !border-right: 1px solid #ddd;
   !padding: 0.5em;
-  margin-right: .5em;
+  margin: 0 .5em 0 0;
   color: #888
 }
